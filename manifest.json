@@ -1,0 +1,21 @@
+{
+
+    "manifest_version": 2,
+    "name": "Youtube Context Remover",
+    "version": "1.0",
+  
+    "description": "Removes the Context Box from Youtube Videos",
+  
+    "icons": {
+      "48": "icons/logo.png"
+    },
+  
+    "content_scripts": [
+      {
+        "matches": ["*://*.youtube.com/*"],
+        "js": ["YCR.js"]
+      }
+    ]
+  
+  }
+  
