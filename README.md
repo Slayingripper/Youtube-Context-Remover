@@ -1,4 +1,5 @@
 # Youtube Context Remover
+ ![img](icons/logo.png)
 
 # Description
 
